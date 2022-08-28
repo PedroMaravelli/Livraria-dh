@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.livrosContain{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.textoLancamento{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10%;
+  align-items: center;
+}
+.textoLancamento div{
+  width: 20px;
+  height: 70px;
+  background-color: blue;
+  margin-left: 5%;
+}
+.textoLancamento h2{
+  margin-left: 5%;
+}
+
+.livrosLancamento{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.livrosLancamento img{
+  width: 200px;
+  height: 270px;
+  margin-top: 20%;
+}
+.livrosLancamento h4 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.livrosLancamento button{
+  margin-top: 5%;
+}
